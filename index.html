@@ -13,10 +13,11 @@
       margin: 0;
       display: flex;
       justify-content: center;
+      font-family: 'Courier New', Courier, monospace;
     }
 
     #message-container {
-      width: 80%;
+      width: 85%;
       max-width: 1200px;
     }
 
@@ -37,10 +38,40 @@
       max-width: 1200px;
       width: 80%;
       display: flex;
+      gap: 5px;
     }
 
     #message-input {
       flex-grow: 1;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    #send-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #3498db;
+      color: #ffffff;
+      border: 1px solid #3498db;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 600;
+    }
+
+    #send-button:hover {
+        background-color: #2980b9;
+        color: #fff;
+        border: 1px solid #2980b9;
+    }
+
+    #send-button:active {
+        background-color: #20729c;
+        color: #fff;
+        border: 1px solid #20729c;
     }
   </style>
 </head>
